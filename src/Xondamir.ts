@@ -1,1 +1,0 @@
-console.log("Xondamir Zokirjonov 220104");
