@@ -1,1 +1,51 @@
+# Dependencies
 node_modules/
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Test Coverage
+coverage/
+.nyc_output/
+*.lcov
+.coverage
+htmlcov/
+junit.xml
+coverage.xml
+*.cover
+
+# Editor Directories and Files
+# VSCode
+.vscode/
+*.code-workspace
+
+# WebStorm / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Other Common Editors
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+.vs/
