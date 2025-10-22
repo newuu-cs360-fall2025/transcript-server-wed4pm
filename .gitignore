@@ -6,7 +6,6 @@
 # $ git config --global mergetool.keepBackup false
 *.orig
 
-.vscode/
 
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
@@ -417,7 +416,6 @@ dist
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
 # auto-import.
-.idea/
 # .idea/artifacts
 # .idea/compiler.xml
 # .idea/jarRepositories.xml
