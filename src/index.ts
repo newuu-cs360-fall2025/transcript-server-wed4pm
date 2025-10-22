@@ -8,6 +8,10 @@ app.get("/", (req: Request, res: Response) => {
   res.send("Hello World!");
 });
 
+app.get("/health", (req: Request, res: Response) => {
+  res.status(200).send("OK");
+});
+
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
